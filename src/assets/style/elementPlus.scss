@@ -1,0 +1,29 @@
+.el-form-item__content{
+    display: flex;
+    align-items: center;
+    .el-input + .el-radio{
+      margin-left: 10px;
+    }
+    .el-input + .el-checkbox{
+      margin-left: 10px;
+    }
+    .el-select + .el-select{
+      margin-left: 10px;
+    }
+    .el-input + .el-select{
+      margin-left: 10px;
+      width: 100%;
+    }
+    .el-select + .el-input{
+      margin-left: 10px;
+    }
+    .el-input + .el-input{
+      margin-left: 10px;
+    }
+    .el-switch{
+      margin-right: 10px;
+    }
+    .el-select{
+        width: 100%;
+    }
+  }
